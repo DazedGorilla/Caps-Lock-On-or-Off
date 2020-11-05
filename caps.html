@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1> Email : </h1>
+    <input id="textbox" placeholder="Type here...">
+    <script>
+      var input=document.getElementById("textbox");
+      input.addEventListener("keyup",function(event){
+        if(event.getModifierState("CapsLock")){
+          alert("Caps Lock is ON!!!");
+        }
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(image.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+#textbox{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-family: fantasy;
+    outline: 1;
+    background: #f2f2f2;
+    border: 0;
+    width: 30%;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 25px;
+}
+h1{
+    position: absolute;
+    top: 47.5%;
+    left: 43%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    color: white;
+
+}
